@@ -1,0 +1,12 @@
+.productItem {
+  display: flex;
+
+  .imgContainer {
+    width: 20rem;
+    height: 20rem;
+
+    img {
+      width: 100%;
+    }
+  }
+}

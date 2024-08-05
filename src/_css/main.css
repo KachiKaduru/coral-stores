@@ -1,3 +1,7 @@
+:root {
+  --grey: #bebebe80;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -12,6 +16,18 @@ html {
 
 body {
   font-size: 1.6rem;
+  font-family: "Poppins";
+}
+
+section {
+  max-width: 1280px;
+  border: 1px solid green;
+  margin: auto;
+}
+
+input,
+button {
+  font-family: "Poppins";
 }
 
 .container {
