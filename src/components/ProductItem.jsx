@@ -8,7 +8,7 @@ export default function ProductItem({ item, url }) {
       </div>
 
       <div className={styles.info}>
-        <h6>{item.name}</h6>
+        <h2>{item.name}</h2>
 
         <p>{item.countInStock} pieces available</p>
 

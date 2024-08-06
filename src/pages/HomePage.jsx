@@ -31,9 +31,9 @@ export default function Homepage() {
     <section>
       <Header />
 
-      <h2>New Arrivals</h2>
+      <h2 className="heading">New Arrivals</h2>
 
-      <div>{isLoading ? <Spinner /> : <ProductList datalist={newArrivals} />}</div>
+      <div className="grd">{isLoading ? <Spinner /> : <ProductList datalist={newArrivals} />}</div>
     </section>
   );
 }

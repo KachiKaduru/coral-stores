@@ -1,12 +1,27 @@
 .productItem {
-  display: flex;
+  display: grid;
+  grid-template-columns: 0.6fr 0.4fr;
+  grid-template-rows: 33rem;
+  box-shadow: 0 1rem 1rem var(--grey);
+  border-radius: 3rem;
+  border: 1px solid var(--grey);
 
   .imgContainer {
-    width: 20rem;
-    height: 20rem;
+    /* width: 20rem;
+    height: 20rem; */
+    /* border: 1px solid green; */
+    /* padding: 1rem; */
 
     img {
+      border-radius: 3rem 0 0 3rem;
+      object-fit: cover;
       width: 100%;
+      height: 100%;
     }
   }
+}
+
+.info {
+  padding: 2rem;
+  display: grid;
 }
